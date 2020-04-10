@@ -1,0 +1,37 @@
+h1 {
+	text-align: center;
+	margin-top: 100px;}
+form {
+	width: 70%;
+	margin: 80px auto;
+	width: fit-content;}
+form * {
+	font-size: 20px;
+	text-align: center;
+	box-sizing: border-box;}
+	form > span {
+		display: grid;
+		grid-gap: 10px;
+		grid-template-columns: auto auto;
+		margin-bottom: 50px;}
+		form > span > input {
+			border: 1px dotted grey;
+			outline-color: darkgrey;}
+			form > span > input:focus {
+				box-shadow: 0 0 3px 2px grey;}
+	form > div {
+		text-align: center;
+		margin-bottom: 20px;}
+		form > div > input[type=checkbox] {
+			vertical-align: middle;}
+		form > div > label:hover {
+				color: grey;
+				user-select: none;}
+	form > button {
+		display: block;
+		margin: auto;}
+
+.dark-mode {
+	background-color: black;}
+.dark-mode main * {
+	color: white;}
